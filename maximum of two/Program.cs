@@ -12,7 +12,15 @@ if (a>b)
 }    
 else
 {
-   Console.Write("max=");
-    Console.WriteLine(b); 
-}    
+   if (b>a)
+   {
+    Console.Write("max=");
+    Console.WriteLine(b);
+   }
+   else
+   {
+    Console.Write("Числа равны");
+   }
+} 
+    
 
