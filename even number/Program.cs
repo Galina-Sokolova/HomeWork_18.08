@@ -9,5 +9,5 @@ if (rem == 0)
 }
 else
 {
-    Console.WriteLine("число"+input+"является нечётным");
+    Console.WriteLine("число "+input+" является нечётным");
 }
