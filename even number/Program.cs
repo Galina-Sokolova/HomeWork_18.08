@@ -1,5 +1,5 @@
 ﻿//программа принимает на вход число и выдаёт, является ли оно чётным
-Console.WriteLine("Введите число:");
+Console.WriteLine("Введите целое число:");
 int input = Convert.ToInt32(Console.ReadLine());
 
 int rem = input % 2;
